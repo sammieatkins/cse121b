@@ -16,3 +16,13 @@ function total(...theNumbers){
 	}
 	return sum
 }
+
+
+const x = 2
+const y = 4
+const z = "string"
+const a = "another string"
+
+var add = x + y
+var multiply = x * y
+var subtract = x - y
