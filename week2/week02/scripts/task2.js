@@ -3,10 +3,10 @@
 /* VARIABLES */
 
 // Step 1: declare and instantiate a variable to hold your name
-const name = "Sammie";
+const firstName = "Sammie";
 
 // Step 2: place the value of the name variable into the HTML file (hint: document.querySelector())
-document.querySelector("#name").innerHTML = name;
+document.querySelector("#name").innerHTML = firstName;
 
 // Step 3: declare and instantiate a variable to hold the current year
 let thisYear = new Date().getFullYear();
