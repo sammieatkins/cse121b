@@ -38,7 +38,7 @@ const reactions = [
 function randomItemFromArray(arr, not) {
     const item = arr[Math.floor(Math.random() * arr.length)];
     if (item == not) {
-        console.log("Ah! we used that one last time, look again");
+        console.log("Repeated reaction");
         return randomItemFromArray(arr,not);
     }
     let reaction = item;
